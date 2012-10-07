@@ -1,38 +1,33 @@
-Proje Adý
+openProject
 =======
 
-Ekip Adý, Proje Adý, Sürüm 1.0, Tarih: 6 Ekim 2012
+Biçda, openProject, Sürüm 1.0, Tarih: 6 Ekim 2012
 
 Yazýlým Gereksinimlerine Ýliþkin Belirtmeler
 ----------------
 
 1. **Giris**
->SRS belgesinin giris bölümünde, SRS belgesinin tamamýna iliskin genel bilgiler sunulmalýdýr. Bu
-bölümde, SRS belgesinin hazýrlanma amacý, kapsamý, tanýmlar, belge içinde kullanýlan kýsa adlar,
-kýsaltmalar ve SRS belgesi ile ilgili genel bilgiler yer almalýdýr.
+>Bu belgenin hazýrlanma amacý, oluþturulacak olan proje yönetimi yazýlýmý ile ilgili bilgiler vermektir. 
+Bu belgede yazýlýma kim tarafýndan, neden ihtiyaç ihtiyaç duyulduðu, hangi girdiler ile hangi çýktýlara  
+ulaþýlmak istendiði gibi bilgilere deðinilecektir.
 
     1. **Amaç**
->Bu bölümde, bu SRS belgesinin hazýrlanma amacýný belirtin. SRS belgesi, tanýmlanan uygulamanýn ya da
-alt sistemin tüm dýs davranýslarýný eksiksiz bir biçimde betimlemelidir. SRS belgesi, belgede sözü edilen
-yazýlýma iliskin gereksinimlerin kapsamlý ve eksiksiz bir sekilde tanýmlanabilmesi için, bu yazýlým ile
-ilgili herhangi bir islevi olmayan gereksinimleri, tasarým kýsýtlamalarýný ve gerekli diger etmenleri de
-betimler.
+>Açýk Kaynaklý Proje Yönetimi yazýlýmý openProject, internet üzerinden çalýþan, kullanýcýlarýn oturum açarak 
+kendi rolarine göre giriþ yaptýklarý ve projeleri ile ilgili, isim, bitiþ tarihi, yapýlacak iþler, önemli 
+tarihler gibi bilgileri girerek, projelerinin varolan durumlarýný görüntüleyebildikleri, düzenleyebildikleri, 
+güncelleyebildikleri ve silebildikleri ve gerektiðinde de özel hesaplama gerektiren raporlara ve göstergelere 
+kolayca ulaþabildikleri bi sistemdir.
 
     2. **Kapsam**
->Bu SRS belgesinin ilgili oldugu yazýlým uygulamasýna iliskin kýsa bir açýklama; özellik ya da diger alt
-sistem gruplamasý; ilgili Kullaným Senaryosu model(ler)i ve bu belgeden etkilenen herhangi bir öge
+>Bu belgede proje yönetimi yazýlýmýnýn üzerinde kurulu olduðu MVC yapýsýnýn, veri model, iþlevler ve sunum 
+katmanlarý, sistemi kullanacak olan kullanýcýlar ve varsa ayrýca görevleri, kullanýlacak olan teknolojiler ve
+ileride yapýlabilecek ek geliþtirmelerden söz edilecektir.
 
     3. **Tanýmlar, Kýsa Adlar ve Kýsaltmalar**
->Bu alt bölümde, SRS belgesinde yer alan bilgilerin dogru bir sekilde yorumlanabilmesi için gerekli
-olan tüm terimlerin, kýsa adlarýn ve kýsaltmalarýn tanýmlarý yer almalýdýr. Bu tanýmlar, Terimler
-Sözlügü projesinin kaynak gösterilmesi aracýlýgýyla da saglanabilir.
+> MVC: Model-View-Controller, Veri modeli, Görünüm ve Kontrol(iþlev anlamýnda) yazýlým geliþtirme metodolojisi
 
     4. **Atýfta bulunulan kaynaklar**
->Bu alt bölümde, SRS belgesinin herhangi bir yerinde atýfta bulunulan tüm belgelerin eksiksiz bir listesi
-yer almalýdýr. Atýfta bulunulan her belgenin baslýgý, (varsa) rapor numarasý, tarihi ve yayýn kurumu
-belirtilmelidir. SRS belgesinde, atýfta bulunulan belgelere hangi kaynaklardan ulasýlabilecegine iliskin
-bilgilere de yer verilmelidir. Bu bilgiler, SRS Ekine ya da baska bir belgeye atýfta bulunularak
-saglanabilir.
+>
 
     5. **Kullanýlacak teknolojiler**
 >Bu bölümde, projenizin bir parçasý olarak kullanabileceginiz teknolojilerin tamamý bulunur. Söz konusu
